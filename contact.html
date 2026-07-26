@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact — NAB Event Rentals</title>
+<meta name="description" content="Request a quote from NAB Event Rentals for your wedding or corporate event decor.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site">
+  <nav class="nav">
+    <a href="index.html" class="brand">NAB <small>Event Rentals</small></a>
+    <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="catalog.html">Catalog</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html" aria-current="page">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+  <section class="hero" style="padding-bottom:20px;">
+    <div class="wrap">
+      <span class="eyebrow">Get a Quote</span>
+      <h1 style="font-size:clamp(2.2rem,4.4vw,3.4rem);">Tell us about<br>your event.</h1>
+      <p class="lede">Share your date, guest count, and the pieces you're after. We usually reply within one business day with availability and pricing.</p>
+    </div>
+  </section>
+
+  <section style="padding-top:10px;">
+    <div class="wrap contact-grid">
+      <div>
+        <div class="info-block">
+          <span class="eyebrow">Email</span>
+          <h3><a href="mailto:kukuakyei@gmail.com">kukuakyei@gmail.com</a></h3>
+        </div>
+        <div class="info-block">
+          <span class="eyebrow">Mobile</span>
+          <h3><a href="tel:+17573394537">757-339-4537</a></h3>
+        </div>
+        <div class="info-block">
+          <span class="eyebrow">Hours</span>
+          <h3>Mon–Sat, 9am–6pm</h3>
+          <p>Delivery and pickup windows are scheduled around your event time, including evenings and weekends.</p>
+        </div>
+        <div class="info-block">
+          <span class="eyebrow">Serving</span>
+          <h3>Weddings &amp; corporate events</h3>
+          <p>Full-service delivery, styling, and pickup for events of any size.</p>
+        </div>
+      </div>
+
+      <form id="inquiry-form">
+        <div class="field">
+          <label for="name">Full name</label>
+          <input type="text" id="name" name="name" required>
+        </div>
+        <div class="field">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+        <div class="field">
+          <label for="event-type">Event type</label>
+          <select id="event-type" name="event-type">
+            <option value="wedding">Wedding</option>
+            <option value="corporate">Corporate event</option>
+            <option value="other">Other</option>
+          </select>
+        </div>
+        <div class="field">
+          <label for="date">Event date</label>
+          <input type="date" id="date" name="date">
+        </div>
+        <div class="field">
+          <label for="guests">Guest count</label>
+          <input type="number" id="guests" name="guests" min="1" placeholder="e.g. 120">
+        </div>
+        <div class="field">
+          <label for="items">What are you looking to rent?</label>
+          <textarea id="items" name="items" placeholder="e.g. Charger plates, table linens, and candle stands for 15 tables"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Send inquiry</button>
+        <p class="form-note">This form is a preview — connect it to your email or CRM to start receiving live inquiries.</p>
+        <div class="success-msg" role="status">Thanks — your inquiry has been noted. We'll follow up by email shortly.</div>
+      </form>
+    </div>
+  </section>
+</main>
+
+<footer class="site">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div>
+        <a href="index.html" class="brand">NAB <small>Event Rentals</small></a>
+        <p style="margin-top:14px; max-width:32ch;">Decor rentals for weddings and corporate events — florals to flatware, delivered and styled.</p>
+      </div>
+      <div>
+        <h4>Site</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="catalog.html">Catalog</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Get in touch</h4>
+        <ul>
+          <li><a href="mailto:kukuakyei@gmail.com">kukuakyei@gmail.com</a></li>
+          <li><a href="tel:+17573394537">757-339-4537</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 NAB Event Rentals</span>
+      <span>Serving weddings &amp; corporate events</span>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
